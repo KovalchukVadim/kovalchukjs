@@ -1,0 +1,35 @@
+.about-h2 {
+    background: #CFDD29;
+    font-family: 'Lexend Zetta';
+    letter-spacing: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    color: #16202A;
+    margin: 0 auto;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.about {
+    background-image: url('./../../img/IMG_660.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // height: 100vh;
+}
+
+.about-title {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Lexend Zetta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 150px;
+    text-align: center;
+    color: #16202A;
+    padding-top: 370px;
+    padding-bottom: 370px;
+}
