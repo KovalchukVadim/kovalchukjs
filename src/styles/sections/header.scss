@@ -1,27 +1,45 @@
 .header {
-    background-image: url('../img/IMG_6539.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300vh
+    position: relative;
+}
+.main-img {
+height: auto;
+width: 100%;
 }
 
-// .header-img {
-//     // background-color: white;
-//     background-image: url('../img/IMG_6539-2.png');
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     // background-position: left top;
-//     min-height: 100vh;
-//     // height: 1415px;
-// }
 .logo {
     height: fit-content;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    @media screen and (max-width: 1200px){
+        top: 7%;
 }
-
-.header-box {
-    display: flex;
-    justify-content: space-around;
-    // padding: 50px 50px;
+@media screen and (max-width: 768px){
+    top: 9%;
+    width: 150px;
+}
+@media screen and (max-width: 501px){
+    top: 12%;
+    left: 30%;
+}
+}
+.menu {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    @media screen and (max-width: 1200px){
+        top: 7%;
+        right: 5%;
+}
+@media screen and (max-width: 768px){
+    top: 10%;
+    right: 0;
+}
+@media screen and (max-width: 501px){
+    top: 15%;
+}
 }
 
 .menu__box {
@@ -31,6 +49,10 @@
     align-items: end;
     height: 200px;
     justify-content: space-around;
+    @media screen and (max-width: 768px){
+        height: 100px;
+
+    }
 }
 
 .menu__item {
@@ -39,22 +61,16 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    // padding-bottom: 15px;
     list-style: none;
-    // padding-left: 100px;
-    // margin-left: 100px;
-}
+    @media screen and (max-width: 768px){
+        font-size: 14px;
 
-.menu__item a {
-    // width: 200px;
-    // padding-left: 200px;
-    // padding-right: 200px;
+    }
 }
 
 .menu__item a:hover {
     background: #AFA389;
     color: black;
-    // padding-left: 100px;
 }
 
 .menu__item a {
@@ -63,16 +79,33 @@
 }
 
 .sphere {
-    // font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: calc(0.5em + 1vmin);
     color: #eee;
-    // background-color: #111;
     width: 90%;
     max-width: 35em;
     margin-left: auto;
     margin-right: auto;
     padding: 2em;
+    @media screen and (max-width: 1500px){
+            max-width: 30em;
+            top: 22%;
+    }
+    @media screen and (max-width: 1200px){
+        max-width: 25em;
 }
+    @media screen and (max-width: 768px){
+    max-width: 20em;
+    font-size: calc(0.5em + 1vmin);
+}
+@media screen and (max-width: 501px){
+    display: none;
+}
+}
+
 
 .paces {
     margin: 0;
@@ -95,6 +128,10 @@
     border-radius: 60%;
     background-color: rgba(255, 255, 255, 0.1);
     transition: all ease-in-out 0.2s;
+    @media screen and (max-width: 768px){
+        font-size: 70%;
+
+    }
     .quote {
         opacity: 0;
         margin: 0;

@@ -12,6 +12,10 @@
     padding-top: 85px;
     padding-bottom: 85px;
     cursor: default;
+    @media screen and (max-width: 700px){
+        font-size: 40px;
+
+    }
 }
 
 .about {
@@ -22,6 +26,11 @@
     background-position: center;
     display: flex;
     justify-content: space-evenly;
+    @media screen and (max-width: 700px){
+        justify-content: center;
+
+    }
+    
 }
 
 .about-title {
@@ -32,12 +41,21 @@
     font-weight: 400;
     font-size: 120px;
     line-height: 150px;
-    // margin: 0 auto;
-    // text-align: center;
     color: #16202A;
     padding-top: 370px;
     padding-bottom: 370px;
     cursor: default;
+    @media screen and (max-width: 768px){
+        font-size: 70px;
+    }
+    @media screen and (max-width: 600px){
+        font-size: 50px;
+    }
+    @media screen and (max-width: 450px){
+        font-size: 30px;
+        line-height: 50px;
+
+      }
 }
 
 .circle-box-left {
@@ -52,6 +70,18 @@
     line-height: 38px;
     color: #16202A;
     text-align: center;
+    @media screen and (max-width: 1400px){
+        font-size: 22px;
+        line-height: 28px;
+     }
+     @media screen and (max-width: 600px){
+        font-size: 18px;
+    }
+    @media screen and (max-width: 455px){
+        font-size: 12px;
+        line-height: 18px;
+    }
+  
 }
 
 .circle-box-right {
@@ -65,6 +95,18 @@
     line-height: 38px;
     color: #16202A;
     text-align: center;
+    @media screen and (max-width: 1400px){
+        font-size: 22px;
+        line-height: 28px;
+
+     }
+     @media screen and (max-width: 600px){
+        font-size: 18px;
+    }
+    @media screen and (max-width: 455px){
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
 
 .circle-one {
@@ -74,9 +116,20 @@
     border-radius: 50%;
     display: inline-block;
     position: relative;
-    // margin-top: 270px;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 1400px){
+        height: 175px;
+        width: 175px;
+     }
+     @media screen and (max-width: 600px){
+        height: 150px;
+        width: 150px;
+    }
+    @media screen and (max-width: 455px){
+        height: 95px;
+        width: 95px;
+    }
 }
 
 .circle-two {
@@ -86,9 +139,20 @@
     border-radius: 50%;
     display: inline-block;
     position: relative;
-    // margin-top: 650px;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 1400px){
+        height: 175px;
+        width: 175px;
+     }
+     @media screen and (max-width: 600px){
+        height: 150px;
+        width: 150px;
+    }
+    @media screen and (max-width: 455px){
+        height: 95px;
+        width: 95px;
+    }
 }
 
 .circle-three {
@@ -100,6 +164,18 @@
     position: relative;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 1400px){
+        height: 175px;
+        width: 175px;
+     }
+     @media screen and (max-width: 600px){
+        height: 150px;
+        width: 150px;
+    }
+    @media screen and (max-width: 455px){
+        height: 95px;
+        width: 95px;
+    }
 }
 
 .circle-four {
@@ -111,6 +187,18 @@
     position: relative;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 1400px){
+        height: 175px;
+        width: 175px;
+     }
+     @media screen and (max-width: 600px){
+        height: 150px;
+        width: 150px;
+    }
+    @media screen and (max-width: 455px){
+        height: 95px;
+        width: 95px;
+    }
 }
 
 .circle-one-img {
@@ -118,6 +206,20 @@
     bottom: 0;
     right: 75px;
     z-index: -1;
+    @media screen and (max-width: 1400px){
+        height: 175px;
+        width: 175px;
+     }
+     @media screen and (max-width: 600px){
+        height: 135px;
+        width: 135px;
+    }
+    @media screen and (max-width: 455px){
+        height: 95px;
+        width: 95px;
+        right: 25px;
+
+    }
 }
 
 .circle-two-img {
@@ -125,6 +227,22 @@
     bottom: 0;
     right: 100px;
     z-index: -1;
+    @media screen and (max-width: 1400px){
+        height: 175px;
+        width: 175px;
+     }
+     @media screen and (max-width: 600px){
+        height: 135px;
+        width: 135px;
+        right: 80px;
+
+    }
+    @media screen and (max-width: 455px){
+        height: 95px;
+        width: 95px;
+        right: 15px;
+
+    }
 }
 
 .circle-three-img {
@@ -132,6 +250,20 @@
     top: 100px;
     left: 40px;
     z-index: -1;
+    @media screen and (max-width: 1400px){
+        height: 175px;
+        width: 175px;
+     }
+     @media screen and (max-width: 600px){
+        height: 135px;
+        width: 135px;
+        left: 0;
+    }
+    @media screen and (max-width: 455px){
+        height: 95px;
+        width: 95px;
+        top: 30px;
+    }
 }
 
 .circle-four-img {
@@ -139,13 +271,36 @@
     right: -50px;
     top: -15px;
     z-index: -1;
+    @media screen and (max-width: 1400px){
+        height: 175px;
+        width: 175px;
+     }
+     @media screen and (max-width: 600px){
+        height: 135px;
+        width: 135px;
+        right: 0;
+    }
+    @media screen and (max-width: 455px){
+        height: 95px;
+        width: 95px;
+    }
 }
 
 .circle-mini {
-    // position: absolute;
     height: 35px;
     width: 35px;
     background: #CFDD29;
     border-radius: 50%;
     display: inline-block;
+    @media screen and (max-width: 1400px){
+        height: 30px;
+        width: 30px;
+     }
+     @media screen and (max-width: 600px){
+        height: 15px;
+        width: 15px;
+    }
+    @media screen and (max-width: 455px){
+        display: none;
+    }
 }
